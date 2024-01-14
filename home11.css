@@ -1,0 +1,694 @@
+.navigation-links1-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links1-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links1-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links1-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links1-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links1-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-root-class-name8 {
+    flex: 1;
+    align-self: flex-start;
+  }
+  .navigation-links1-root-class-name9 {
+    flex: 1;
+    align-self: flex-start;
+  }
+  .navigation-links1-root-class-name16 {
+    flex: 1;
+    align-self: flex-start;
+  }
+}
+
+.home11-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home11-container01 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: flex-start;
+}
+.home11-container02 {
+  flex: 0 0 auto;
+  width: 60%;
+  height: 585px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/desktop-image-hero-3-1500w.jpg");
+  background-repeat: repeat;
+  background-position: top left;
+}
+.home11-header {
+  width: 613px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home11-image {
+  height: 2rem;
+  object-fit: cover;
+}
+.home11-nav {
+  flex: 0 0 auto;
+  color: var(--dl-color-gray-white);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home11-text {
+  transition: 0.5s;
+  font-family: "League Spartan";
+}
+.home11-text:hover {
+  cursor: grabbing;
+  text-decoration: underline;
+  text-underline-offset: 60%;
+  text-decoration-thickness: 20%;
+}
+.home11-text01 {
+  transition: 0.5s;
+  font-family: "League Spartan";
+  margin-left: var(--dl-space-space-twounits);
+}
+.home11-text01:hover {
+  cursor: grabbing;
+  text-decoration: underline;
+  text-underline-offset: 60%;
+  text-decoration-thickness: 20%;
+}
+.home11-text02 {
+  transition: 0.5s;
+  font-family: "League Spartan";
+  margin-left: var(--dl-space-space-twounits);
+}
+.home11-text02:hover {
+  cursor: grabbing;
+  text-decoration: underline;
+  text-underline-offset: 60%;
+  text-decoration-thickness: 20%;
+}
+.home11-text03 {
+  cursor: grabbing;
+  transition: 0.5s;
+  font-family: "League Spartan";
+  margin-left: var(--dl-space-space-twounits);
+}
+.home11-text03:hover {
+  text-decoration: underline;
+  text-underline-offset: 60%;
+  text-decoration-thickness: 20%;
+}
+.home11-nav1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+}
+.home11-burger-menu {
+  display: none;
+}
+.home11-icon {
+  color: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.home11-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.home11-nav2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home11-container03 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home11-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home11-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home11-container04 {
+  width: 280px;
+  height: 175px;
+  display: none;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home11-container05 {
+  width: 104px;
+  height: 100px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #000000;
+}
+.home11-container05:hover {
+  cursor: grabbing;
+  background-color: hsl(0, 0%, 27%);
+}
+.home11-image1 {
+  width: 40%;
+  height: 40%;
+  align-self: center;
+  object-fit: cover;
+}
+.home11-container06 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #000000;
+}
+.home11-container06:hover {
+  cursor: grabbing;
+  background-color: hsl(0, 0%, 27%);
+}
+.home11-image2 {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+.home11-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: none;
+  background: white;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home11-image3 {
+  display: none;
+}
+.home11-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home11-container09 {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home11-feature-card {
+  width: 70%;
+  height: 288px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home11-container10 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home11-text08 {
+  font-size: 2.5rem;
+  font-family: "League Spartan";
+  font-weight: 800;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home11-text09 {
+  color: rgb(161, 161, 161);
+  font-size: 1em;
+  font-family: "League Spartan";
+  line-height: 2;
+}
+.home11-container11 {
+  width: 65%;
+  height: 57px;
+  display: flex;
+  align-self: center;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home11-container11:hover {
+  color: hsl(0, 0%, 63%);
+  cursor: grabbing;
+}
+.home11-container12 {
+  width: 60%;
+  height: 5%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+}
+.home11-text10 {
+  font-size: 20px;
+  align-self: center;
+  font-family: "League Spartan";
+  font-weight: 500;
+  letter-spacing: 0.8rem;
+}
+.home11-container13 {
+  width: 25%;
+  height: 100px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.home11-image4 {
+  width: 70%;
+  height: 20%;
+  object-fit: cover;
+}
+.home11-container14 {
+  width: 35%;
+  height: 175px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home11-navlink2 {
+  display: contents;
+}
+.home11-container15 {
+  width: 104px;
+  height: 100px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #000000;
+}
+.home11-container15:hover {
+  cursor: grabbing;
+  background-color: hsl(0, 0%, 27%);
+}
+.home11-image5 {
+  width: 40%;
+  height: 40%;
+  align-self: center;
+  object-fit: cover;
+}
+.home11-navlink3 {
+  display: contents;
+}
+.home11-container16 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #000000;
+}
+.home11-container16:hover {
+  cursor: grabbing;
+  background-color: hsl(0, 0%, 27%);
+}
+.home11-image6 {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+.home11-container17 {
+  width: 100%;
+  height: 472px;
+  display: flex;
+  align-items: flex-start;
+}
+.home11-container18 {
+  flex: 0 0 auto;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home11-image7 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home11-container19 {
+  flex: 0 0 auto;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home11-feature-card1 {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home11-container20 {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home11-text11 {
+  font-size: 1.3rem;
+  font-family: "League Spartan";
+  font-weight: 800;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+.home11-text12 {
+  color: hsl(0, 0%, 63%);
+  font-size: 19px;
+  font-family: "League Spartan";
+  line-height: 2;
+}
+.home11-container21 {
+  flex: 0 0 auto;
+  width: 30%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/image-about-light-1500w.jpg");
+  background-repeat: no-repeat;
+}
+@media(max-width: 991px) {
+  .home11-container01 {
+    flex-direction: column;
+  }
+  .home11-container02 {
+    width: 100%;
+    position: relative;
+  }
+  .home11-header {
+    width: 100%;
+  }
+  .home11-icon {
+    display: flex;
+  }
+  .home11-container04 {
+    right: 0px;
+    width: 204px;
+    bottom: 0px;
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .home11-container09 {
+    width: 100%;
+  }
+  .home11-text09 {
+    color: rgb(161, 161, 161);
+    font-size: 1em;
+    font-family: League Spartan;
+    line-height: 2;
+  }
+  .home11-container11 {
+    width: 50%;
+    height: 83px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home11-container14 {
+    display: none;
+  }
+  .home11-container17 {
+    flex-direction: column;
+  }
+  .home11-container18 {
+    width: 100%;
+  }
+  .home11-container19 {
+    width: 100%;
+  }
+  .home11-container21 {
+    width: 100%;
+    background-size: cover;
+    background-image: url("public/image-about-light-1500w.jpg");
+  }
+}
+@media(max-width: 767px) {
+  .home11-container02 {
+    background-size: cover;
+    background-image: url("public/mobile-image-hero-3-1500w.jpg");
+    background-position: top;
+  }
+  .home11-header {
+    display: none;
+    position: relative;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home11-image {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .home11-nav {
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .home11-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home11-text01 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home11-text02 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home11-text03 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home11-nav1 {
+    display: none;
+  }
+  .home11-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home11-icon {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .home11-container04 {
+    width: 175px;
+    height: 130px;
+  }
+  .home11-container07 {
+    height: 105px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .home11-image3 {
+    width: 10%;
+    height: 30%;
+    display: block;
+    object-fit: cover;
+  }
+  .home11-container08 {
+    top: 3px;
+    right: 0px;
+    width: 80%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home11-text04 {
+    font-style: normal;
+    font-family: League Spartan;
+    font-weight: 700;
+  }
+  .home11-text05 {
+    font-style: normal;
+    font-family: League Spartan;
+    font-weight: 700;
+  }
+  .home11-text06 {
+    font-style: normal;
+    font-family: League Spartan;
+    font-weight: 700;
+  }
+  .home11-text07 {
+    font-style: normal;
+    font-family: League Spartan;
+    font-weight: 700;
+  }
+  .home11-feature-card {
+    flex-direction: row;
+  }
+  .home11-container10 {
+    flex-direction: column;
+  }
+  .home11-text09 {
+    line-height: 1.5;
+  }
+  .home11-container11 {
+    width: 70%;
+  }
+  .home11-feature-card1 {
+    flex-direction: row;
+  }
+  .home11-container20 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .home11-container02 {
+    width: 100%;
+    background-size: cover;
+    background-image: url("public/mobile-image-hero-3-1500w.jpg");
+    background-position: top;
+  }
+  .home11-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .home11-mobile-menu {
+    padding: 16px;
+  }
+  .home11-container04 {
+    width: 150px;
+    height: 105px;
+  }
+  .home11-container09 {
+    height: 515px;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .home11-feature-card {
+    width: 80%;
+    height: 388px;
+  }
+  .home11-container10 {
+    flex-direction: column;
+  }
+  .home11-text08 {
+    width: 346px;
+    align-self: flex-start;
+  }
+  .home11-container11 {
+    width: 80%;
+  }
+  .home11-container20 {
+    flex-direction: column;
+  }
+  .home11-container21 {
+    background-size: cover;
+    background-image: url("public/image-about-light-1500w.jpg");
+    background-position: top;
+  }
+}
